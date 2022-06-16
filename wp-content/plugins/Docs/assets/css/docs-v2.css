@@ -1,0 +1,89 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700";
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+p:empty {
+  display: none; }
+
+#documenter_buttons {
+  margin-top: -44px; }
+
+#documenter_sidebar {
+  -moz-box-shadow: 0 0 6px rgba(3, 3, 3, 0.3);
+  -webkit-box-shadow: 0 0 6px rgba(3, 3, 3, 0.3);
+  box-shadow: 0 0 6px rgba(3, 3, 3, 0.3); }
+  #documenter_sidebar #documenter_logo {
+    background-size: 50%; }
+  #documenter_sidebar ul {
+    margin-top: 0;
+    height: 100% !important; }
+    #documenter_sidebar ul a {
+      text-align: left !important;
+      padding: 10px 10px 10px 20px !important;
+      font-weight: 600; }
+      #documenter_sidebar ul a + ul {
+        display: none !important; }
+      #documenter_sidebar ul a.current + ul {
+        display: block !important; }
+    #documenter_sidebar ul ul li a {
+      font-weight: 400;
+      padding-left: 30px !important; }
+
+#documenter_content {
+  max-width: 835px;
+  font-size: 14px;
+  line-height: 20px; }
+  #documenter_content .btn {
+    color: #333 !important; }
+  #documenter_content .btn-primary {
+    color: #fff !important; }
+  #documenter_content a {
+    color: #03A9F4; }
+  #documenter_content h1 {
+    margin-bottom: 10px; }
+  #documenter_content h3 {
+    font-size: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+    color: #03A9F4;
+    line-height: 1.6; }
+  #documenter_content hr.notop {
+    border-top: solid 1px #03A9F4;
+    margin-bottom: 30px; }
+  #documenter_content img {
+    margin: 10px 0 30px;
+    display: block;
+    width: 100%;
+    height: auto; }
+  #documenter_content li {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 20px; }
+    #documenter_content li:first-letter {
+      text-transform: capitalize; }
+  #documenter_content .sm-settings-docs-section span {
+    display: none; }
+  #documenter_content .sm-settings-docs-section .dashicons-arrow-up-alt2 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    top: 15px !important; }
+  #documenter_content .sm-settings-docs-section .dashicons-arrow-down-alt2 {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    top: 15px !important; }
+
+#documenter_copyright {
+  text-align: center;
+  padding: 10px;
+  left: 0;
+  box-sizing: border-box;
+  bottom: 0;
+  background: #eaeaea;
+  line-height: 1.3; }
